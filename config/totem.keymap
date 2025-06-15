@@ -65,6 +65,11 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <0 1 2 3 21 22 23 24>;
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
